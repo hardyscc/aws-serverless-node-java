@@ -1,4 +1,4 @@
-FROM hardys/gcloud-serverless-node
+FROM hardys/aws-serverless-node
 MAINTAINER Hardys <hardyscc@gmail.com>
 
 # Default to UTF-8 file.encoding

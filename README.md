@@ -1,1 +1,1 @@
-# aws-serverless-node-java
+# Dockerfile for node, java, serverless & awscli
