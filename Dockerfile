@@ -24,4 +24,5 @@ RUN set -x \
 		openjdk8-jre="$JAVA_ALPINE_VERSION" \
 	&& [ "$JAVA_HOME" = "$(docker-java-home)" ]
 
-ENTRYPOINT ["/bin/bash", "-c"]
+WORKDIR /root
+CMD bash
